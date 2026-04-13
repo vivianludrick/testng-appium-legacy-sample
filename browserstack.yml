@@ -1,0 +1,11 @@
+userName: <BROWSERSTACK_USERNAME>
+accessKey: <BROWSERSTACK_ACCESS_KEY>
+
+projectName: "Testng Sample Legacy Project"
+buildName: "Sample Build"
+buildIdentifier: '#${BUILD_NUMBER}' # Supports strings along with either/both ${expression}
+
+app: "dummy id"
+# The dummy ID is can be used because the actual App ID is pulled from the legacy driver.
+browserstackAutomation: false
+accessibility: true
